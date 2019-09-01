@@ -1,0 +1,1 @@
+Ext.define("Ext.locale.ru.grid.filters.Filters",{override:"Ext.grid.filters.Filters",menuFilterText:"Фильтр"});
