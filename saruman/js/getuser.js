@@ -282,7 +282,7 @@ Ext.onReady(function() {
 				xtype: 'textfield',
 				allowBlank: true,
 				validator: function(val) {
-					if ( ( val.match(/^([A-Za-z0-9_\.\-]{3,})(@)([a-zA-Z0-9\.]){3,}$/) ) || ( val.length == 0 ) )
+					if ( ( val.match(/^([A-Za-z0-9_\.\-]{2,})(@)([a-zA-Z0-9\.]){3,}$/) ) || ( val.length == 0 ) )
 						return true;
 					else
 						return 'Это поле должно содержать адрес в формате "user@domain"';
