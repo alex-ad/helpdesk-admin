@@ -20,15 +20,14 @@
 		"BASE"		=>	"ts",
 		"USER"		=>	"root",
 		"PASSWORD"	=>	""
-		//"PASSWORD"	=>	"dm48hsw2"
 	);
 	
 	const LDAP = Array(
-		"port"		=>	"3268",
-		"domain"	=>	"corp.vgtz.com",
-		"basedn"	=>	"DC=corp,DC=vgtz,DC=com",
-		"group"		=>	"VLG_IS_USER",
-		"password"	=>	"is5493",
-		"user"	=>	"0,k0vbcm"
+		"port"		=>	"",
+		"domain"	=>	"",
+		"basedn"	=>	"",
+		"group"		=>	"",
+		"password"	=>	"",
+		"user"	    =>	""
 	);
 ?>
